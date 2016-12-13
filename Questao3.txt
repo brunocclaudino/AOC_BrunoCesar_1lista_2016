@@ -1,0 +1,31 @@
+dados: 
+
+Area do Wafer = 3,14*20²= 1256cm²
+
+Area do chip1 = 1² = 1cm²
+Area do chip2 = 2² = 4cm²
+Area do chip3 = 3² = 9cm²
+
+Custo por wafer = U$ 100
+Defeito por area = 0,5 p/cm²
+
+
+Rendimento chip1 = 1/(1+(Defeito por area*Area do chip1/2))² = 1/(1+(0,5*1/2))² = 1/1,5625 = 0,64
+
+Rendimento chip2 = 1/(1+(Defeito por area*Area do chip2/2))² = 1/(1+(0,5*4/2))² = 1/4 = 0,25
+
+Rendimento chip3 = 1/(1+(Defeito por area*Area do chip3/2))² = 1/(1+(0,5*9/2))² = 1/10,5625 = 0.0946
+
+chips por wafer1 = Area do wafer/Area do chip1 = 1256/1 = 1256
+
+chips por wafer2 = Area do wafer/Area do chip2 = 1256/4 = 314
+
+chips por wafer3 = Area do wafer/Area do chip3 = 1256/9 = 139,55
+
+
+
+custo por chip1 = custo por wafer/chips por wafer1*rendimento1 = 100/1256*0,64 = U$0,12
+
+custo por chip2 = custo por wafer/chips por wafer1*rendimento2 = 100/314*0,25 = U$1,27
+
+custo por chip3 = custo por wafer/chips por wafer1*rendimento3 = 100/139,55*0,0946 = U$7,57

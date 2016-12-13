@@ -1,0 +1,9 @@
+RISC - A arquitetura RISC visa Unidades de controle mais simples rapidas e baratas,utiliza instruções o mais simples possivel,
+possui poucas variedades e poucos endereços.Algumas das vantagens da arquitetura RISC é o fato de que a mesma com a Unidade de Controle tem como prever
+quantos ciclos são necessarios para executar as instruções.Essa previsibilidade traz beneficios  para o ganho de desempenho do Pipeline,os processadores RISC trabalham com estágios mais curtos de Pipeline, em torno de 4 a 10 estágios.
+Exemplos de processadores RISC:Mips(Silicon Graphics),Sparc(Sun),Alpha(DEC) entre outros.
+
+CISC - A arquitetura CISC visa unidades de controle poderosas que executão instruções mais complexas como a execução fora de ordem e execução Superescalar,
+estas características de complexidade tornam os estágios de Pipeline dos processadores CISC mais longos, em torno de 20 a 30 estagios,O CISC utiliza microcodigo.
+Como vantagem os processadores CISC são mais rapidos que os processadores RISC.
+Exemplos de processadores CISC:Pentium(Intel),68040(Motorola).

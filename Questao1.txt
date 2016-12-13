@@ -1,0 +1,9 @@
+A arquitetura proposta pro Von Neumann é uma arquitetura de computador que tem como principal caracteriza a
+possibilidade de uma máquina digital armazenar seus programas no mesmo espaço de memória que os dados,podendo assim manipular tais programas.
+A arquitetura de Von Neumann possui os seguintes componentes:
+
+-Memoria.
+-Unidade Logica e Aritmetica(ULA),determina a sequencia de instrução a ser executada.
+-Unidade Central de Processamento(CPU),composta por diversos registradores.
+-Unidade de Controle,cuja função é buscar um programa na memória, instrução por instrução, e executá-lo sobre os dados de entrada.
+-Sistema de Entrada/Saida

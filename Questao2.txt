@@ -1,0 +1,18 @@
+A arquitetura proposta pro Von Neumann é uma arquitetura de computador que tem como principal caracteriza a
+possibilidade de uma máquina digital armazenar seus programas no mesmo espaço de memória que os dados,podendo assim manipular tais programas.
+A arquitetura de Von Neumann possui os seguintes componentes:
+
+-Memoria.
+-Unidade Logica e Aritmetica(ULA),determina a sequencia de instrução a ser executada.
+-Unidade Central de Processamento(CPU),composta por diversos registradores.
+-Unidade de Controle,cuja função é buscar um programa na memória, instrução por instrução, e executá-lo sobre os dados de entrada.
+-Sistema de Entrada/Saida
+
+
+A Arquitetura de Harvard foi desenvolvida  visando a necessidade de se ter um microcontrolador  trabalhando mais rápido.
+É uma arquitetura de computador que se distingue das outras por possuir duas memórias diferentes e independentes em termos de barramento e
+ligação ao processador e na separação de barramentos de dados das memórias onde estão as instruções de programa e das memórias de dados,
+permitindo que um processador possa acessar as duas simultaneamente, obtendo um desempenho melhor , pois pode buscar uma nova instrução enquanto executa outra.
+
+A principal diferença entre as duas arquiteturas é que a arquitetura de Harvard separa o armazenamento e o trafego instruções da CPU e dos dados em duas unidades distintas de memória,
+já a arquitetura de Von Neumann utiliza o mesmo espaço de memoria para ambos.Atualmente as CPUs utilizam a arquitetura de Von Neumann, mas visando aumentar o desempenho algumas CPUs utilizam a arquitetura de Harvard.

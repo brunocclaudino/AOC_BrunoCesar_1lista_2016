@@ -1,0 +1,14 @@
+Programa 1
+
+DesempenhoM2\DesempenhoM1 = TM1/TM2 = 10/5 = 2
+
+M2 é 2 vezes mais rapido que M1.
+
+
+
+Programa 2
+
+DesempenhoM1\DesempenhoM2 = TM2/TM1 = 4/3 = 1,33
+
+
+M1 é 1,33 vezes mais rapido que M2.
